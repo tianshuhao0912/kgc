@@ -12,4 +12,8 @@ public class Sku {
     public String getTitle(){
         return this.title;
     }
+
+    public Long getPrice(){
+        return  this.price;
+    }
 }
