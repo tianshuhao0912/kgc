@@ -8,4 +8,8 @@ public class Sku {
     public Long getSkuId(){
      return this.skuId;
     }
+
+    public String getTitle(){
+        return this.title;
+    }
 }
